@@ -1,0 +1,184 @@
+[
+  {
+    "nick_name": "John",
+    "goal_here": "Lose weight",
+    "date_of_birth": "1990-01-01",
+    "image_url": "https://example.com/john.jpg",
+    "social": [
+      {
+        "id": "123456",
+        "user_name": "john_doe",
+        "type": "Twitter"
+      },
+      {
+        "id": "789012",
+        "user_name": "john_doe",
+        "type": "Instagram"
+      }
+    ]
+  },
+  {
+    "nick_name": "Jane",
+    "goal_here": "Learn programming",
+    "date_of_birth": "1995-05-15",
+    "image_url": "https://example.com/jane.jpg",
+    "social": [
+      {
+        "id": "345678",
+        "user_name": "jane_doe",
+        "type": "Twitter"
+      },
+      {
+        "id": "901234",
+        "user_name": "jane_doe",
+        "type": "Instagram"
+      }
+    ]
+  },
+  {
+    "nick_name": "Alice",
+    "goal_here": "Travel the world",
+    "date_of_birth": "1988-12-25",
+    "image_url": "https://example.com/alice.jpg",
+    "social": [
+      {
+        "id": "567890",
+        "user_name": "alice_smith",
+        "type": "Twitter"
+      },
+      {
+        "id": "123456",
+        "user_name": "alice_smith",
+        "type": "Instagram"
+      }
+    ]
+  },
+  {
+    "nick_name": "Bob",
+    "goal_here": "Start a business",
+    "date_of_birth": "1985-07-10",
+    "image_url": "https://example.com/bob.jpg",
+    "social": [
+      {
+        "id": "234567",
+        "user_name": "bob_jones",
+        "type": "Twitter"
+      },
+      {
+        "id": "890123",
+        "user_name": "bob_jones",
+        "type": "Instagram"
+      }
+    ]
+  },
+  {
+    "nick_name": "Eve",
+    "goal_here": "Learn a new language",
+    "date_of_birth": "1992-03-20",
+    "image_url": "https://example.com/eve.jpg",
+    "social": [
+      {
+        "id": "345678",
+        "user_name": "eve_wilson",
+        "type": "Twitter"
+      },
+      {
+        "id": "901234",
+        "user_name": "eve_wilson",
+        "type": "Instagram"
+      }
+    ]
+  },
+  {
+    "nick_name": "Charlie",
+    "goal_here": "Get fit",
+    "date_of_birth": "1987-11-05",
+    "image_url": "https://example.com/charlie.jpg",
+    "social": [
+      {
+        "id": "456789",
+        "user_name": "charlie_brown",
+        "type": "Twitter"
+      },
+      {
+        "id": "012345",
+        "user_name": "charlie_brown",
+        "type": "Instagram"
+      }
+    ]
+  },
+  {
+    "nick_name": "David",
+    "goal_here": "Read more books",
+    "date_of_birth": "1993-09-30",
+    "image_url": "https://example.com/david.jpg",
+    "social": [
+      {
+        "id": "567890",
+        "user_name": "david_green",
+        "type": "Twitter"
+      },
+      {
+        "id": "123456",
+        "user_name": "david_green",
+        "type": "Instagram"
+      }
+    ]
+  },
+  {
+    "nick_name": "Frank",
+    "goal_here": "Learn to play an instrument",
+    "date_of_birth": "1984-06-15",
+    "image_url": "https://example.com/frank.jpg",
+    "social": [
+      {
+        "id": "678901",
+        "user_name": "frank_white",
+        "type": "Twitter"
+      },
+      {
+        "id": "234567",
+        "user_name": "frank_white",
+        "type": "Instagram"
+      }
+    ]
+  },
+  {
+    "nick_name": "Grace",
+    "goal_here": "Start a blog",
+    "date_of_birth": "1991-04-05",
+    "image_url": "https://example.com/grace.jpg",
+    "social": [
+      {
+        "id": "789012",
+        "user_name": "grace_black",
+        "type": "Twitter"
+      },
+      {
+        "id": "345678",
+        "user_name": "grace_black",
+        "type": "Instagram"
+      }
+    ]
+  },
+  {
+    "nick_name": "Harry",
+    "goal_here": "Learn to cook",
+    "date_of_birth": "1989-02-10",
+    "image_url": "https://example.com/harry.jpg",
+    "social": [
+      {
+        "id": "890123",
+        "user_name": "harry_brown",
+        "type": "Twitter"
+      },
+      {
+        "id": "456789",
+        "user_name": "harry_brown",
+        "type": "Instagram"
+      }
+    ]
+  }
+]
+
+
