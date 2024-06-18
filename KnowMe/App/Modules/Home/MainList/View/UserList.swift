@@ -10,6 +10,6 @@ import SwiftUI
 struct UserList<M: UserListViewModeling>: View {
     @ObservedObject var viewModel: M = UserListViewModel(getUsersUseCase: GetUsersUseCase()) as! M
     var body: some View {
-        Text("")
+        Text("UserList")
     }
 }
