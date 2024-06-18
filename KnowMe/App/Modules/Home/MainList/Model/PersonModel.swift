@@ -19,24 +19,6 @@ struct Social: Codable {
     let type: TypeEnum
 }
 
-//enum TypeEnum: String {
-//    case instagram
-//    case twitter
-//}
-
-//struct PersonModel {
-//    var nickName: String
-//    var objective: String
-//    var dateOfBirth: Date
-//    var images: [URL]
-//    var socials: [SocialModel]
-//}
-
-//struct SocialModel: Identifiable {
-//    var id: Int
-//    var userName: String
-//    var type: Social
-//}
 
 enum TypeEnum: Codable {
     case tg, instagram, fb, snap, tt, twitter
