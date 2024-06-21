@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F31011C82C26307400562F01 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31011C72C26307400562F01 /* SignUpView.swift */; };
+		F31011CB2C26379300562F01 /* Auth0 in Frameworks */ = {isa = PBXBuildFile; productRef = F31011CA2C26379300562F01 /* Auth0 */; };
+		F31011CD2C26380700562F01 /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = F31011CC2C26380700562F01 /* Auth0.plist */; };
 		F3105A642C204F8800E5D7B7 /* UserDefaultsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3105A632C204F8800E5D7B7 /* UserDefaultsService.swift */; };
 		F3105A662C204FBF00E5D7B7 /* UserDefaults+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3105A652C204FBF00E5D7B7 /* UserDefaults+Extensions.swift */; };
 		F3105A742C20546900E5D7B7 /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = F3105A732C20546900E5D7B7 /* CombineMoya */; };
@@ -31,6 +34,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F31011C72C26307400562F01 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		F31011CC2C26380700562F01 /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
 		F3105A632C204F8800E5D7B7 /* UserDefaultsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsService.swift; sourceTree = "<group>"; };
 		F3105A652C204FBF00E5D7B7 /* UserDefaults+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extensions.swift"; sourceTree = "<group>"; };
 		F3105A7B2C20548500E5D7B7 /* Moya+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Moya+Extensions.swift"; sourceTree = "<group>"; };
@@ -59,6 +64,7 @@
 				F3105A762C20546900E5D7B7 /* Moya in Frameworks */,
 				F3105A742C20546900E5D7B7 /* CombineMoya in Frameworks */,
 				F3105A7A2C20546900E5D7B7 /* RxMoya in Frameworks */,
+				F31011CB2C26379300562F01 /* Auth0 in Frameworks */,
 				F3105A782C20546900E5D7B7 /* ReactiveMoya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,6 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F31011C52C26302800562F01 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F31011C62C26304500562F01 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F31011C62C26304500562F01 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F31011C72C26307400562F01 /* SignUpView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		F3105A612C204F6700E5D7B7 /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +150,7 @@
 		F3105A6C2C2050A900E5D7B7 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				F31011C52C26302800562F01 /* Login */,
 				F387DC482B6BAFA800726033 /* Home */,
 			);
 			path = Modules;
@@ -198,6 +221,7 @@
 				F3105A672C20504300E5D7B7 /* App */,
 				F3105A682C20505500E5D7B7 /* Assets */,
 				F387DC402B6BAF7F00726033 /* Preview Content */,
+				F31011CC2C26380700562F01 /* Auth0.plist */,
 			);
 			path = KnowMe;
 			sourceTree = "<group>";
@@ -311,6 +335,7 @@
 				F3105A752C20546900E5D7B7 /* Moya */,
 				F3105A772C20546900E5D7B7 /* ReactiveMoya */,
 				F3105A792C20546900E5D7B7 /* RxMoya */,
+				F31011CA2C26379300562F01 /* Auth0 */,
 			);
 			productName = KnowMe;
 			productReference = F387DC372B6BAF7D00726033 /* KnowMe.app */;
@@ -342,6 +367,7 @@
 			mainGroup = F387DC2E2B6BAF7D00726033;
 			packageReferences = (
 				F3105A722C20546900E5D7B7 /* XCRemoteSwiftPackageReference "Moya" */,
+				F31011C92C26379300562F01 /* XCRemoteSwiftPackageReference "Auth0" */,
 			);
 			productRefGroup = F387DC382B6BAF7D00726033 /* Products */;
 			projectDirPath = "";
@@ -360,6 +386,7 @@
 				F395AEB52B836B9C00A7947E /* DummyUsers.json in Resources */,
 				F387DC422B6BAF7F00726033 /* Preview Assets.xcassets in Resources */,
 				F387DC3F2B6BAF7F00726033 /* Assets.xcassets in Resources */,
+				F31011CD2C26380700562F01 /* Auth0.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F387DC532B6BB42100726033 /* Date+Extension.swift in Sources */,
+				F31011C82C26307400562F01 /* SignUpView.swift in Sources */,
 				F3105A642C204F8800E5D7B7 /* UserDefaultsService.swift in Sources */,
 				F395AEC12B8371CE00A7947E /* GetUsersUseCase.swift in Sources */,
 				F395AEBB2B836D5300A7947E /* UserListViewModel.swift in Sources */,
@@ -586,6 +614,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		F31011C92C26379300562F01 /* XCRemoteSwiftPackageReference "Auth0" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/Auth0.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.0;
+			};
+		};
 		F3105A722C20546900E5D7B7 /* XCRemoteSwiftPackageReference "Moya" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Moya/Moya.git";
@@ -597,6 +633,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		F31011CA2C26379300562F01 /* Auth0 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F31011C92C26379300562F01 /* XCRemoteSwiftPackageReference "Auth0" */;
+			productName = Auth0;
+		};
 		F3105A732C20546900E5D7B7 /* CombineMoya */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F3105A722C20546900E5D7B7 /* XCRemoteSwiftPackageReference "Moya" */;
