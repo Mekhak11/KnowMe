@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Auth0
 
 struct RequestServiceError: LocalizedError, Codable, Error {
     let message: String
@@ -28,4 +29,10 @@ struct RequestServiceError: LocalizedError, Codable, Error {
         self.message = message
         self.httpStatus = httpStatus
     }
+    
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        self.message = try container.decode(String.self, forKey: .message)
+    }
+    
 }
